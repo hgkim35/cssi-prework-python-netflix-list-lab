@@ -18,6 +18,8 @@ def add_to_queue(movie_queue, add_movie):
 #4. Define a function view_queue that uses a for loop to iterate over the list of movies and return them as a numbered list starting at 1, with a new line for each movie.
 def view_queue()
 movies = []
-    for i in range(len(movies)):
-        print("{}. {}".format("i+1," "movies[i]"))
+i = 0
+while i < len(movies):
+    print i + ". " + movie "\n"
+    i = i+1
     return view_queue
